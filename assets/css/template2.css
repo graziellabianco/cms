@@ -1,0 +1,22 @@
+
+body{
+    background-color: #fff;
+    margin: 0;
+}
+
+.topo{
+    height: 80px;
+    background-color: #000;
+}
+.menu{
+    height: 40px;
+    background-color: orange;
+}
+.container{
+    height: 200px;
+    background-color: #fff;
+}
+.rodape{
+    height: 80px;
+    background-color: #000;
+}
