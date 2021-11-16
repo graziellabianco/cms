@@ -26,4 +26,13 @@ class controller
 		extract($viewData);
 		include 'views/' . $viewName . '.php';
 	}
+
+	public function loadMenu()
+	{
+		$menu = new Menu();
+		$m = array();
+		$m["menu"]= $menu->getMenu();
+
+		$this->loadView("menu",$m);
+	}
 }
